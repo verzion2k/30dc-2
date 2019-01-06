@@ -209,6 +209,7 @@ body {
 .blog-title {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
+    font-size: 2rem;
     color: #111;
 }
 
@@ -258,6 +259,76 @@ body {
     border-color: #666;
     outline: 0;
     box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, .25);
+}
+
+
+/* About */
+
+.about-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 2rem;
+    margin-top: 2rem;
+    color: #111;
+}
+
+.about-text,
+.photo-taken {
+    margin-top: 1rem;
+}
+
+.photo-link {
+    font-weight: 400;
+    color: #111;
+}
+
+.photo-link:hover {
+    color: #666;
+    text-decoration: none;
+}
+
+
+/* Contact */
+
+.contact-button {
+    padding: 0.625rem 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 0.875rem;
+    letter-spacing: 0.1em;
+    background-color: #111;
+    border-radius: 0;
+}
+
+.contact-button:hover {
+    background-color: #666;
+}
+
+.contact-info {
+    margin-top: 4rem;
+    margin-left: 1.75rem;
+}
+
+.contact-pos,
+.contact-name {
+    color: #111;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+.contact-email,
+.contact-tel {
+    color: #666;
+    font-size: 0.875rem;
+    font-weight: 300;
+}
+
+.contact-email,
+.contact-tel,
+.contact-pos,
+.contact-name {
+    margin-bottom: 0.5rem;
 }
 
 
