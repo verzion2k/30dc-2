@@ -11,8 +11,17 @@ body {
     padding: 3.75rem;
 }
 
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
 
 /* Navbar */
+
+.mainNav {
+    margin-bottom: 3.75rem;
+}
 
 .navbar {
     font-family: 'Montserrat', sans-serif;
@@ -34,6 +43,221 @@ body {
     font-weight: 900;
     text-transform: uppercase;
     letter-spacing: 0.05em;
+}
+
+
+/* Portfolio */
+
+.content {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.portfolio {
+    position: relative;
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+    min-height: 400px;
+}
+
+.portfolio:hover {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    cursor: pointer;
+}
+
+.portfolio:hover .portfolio-link {
+    text-decoration: none;
+    color: #fff;
+    opacity: 1;
+}
+
+.portfolio-link {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.125rem;
+    text-align: center;
+    text-transform: uppercase;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    text-shadow: 2px 2px 3px #111;
+}
+
+.portfolio-1 {
+    background: url("https://images.pexels.com/photos/814499/pexels-photo-814499.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.portfolio-2 {
+    background: url("https://images.pexels.com/photos/257840/pexels-photo-257840.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.portfolio-3 {
+    background: url("https://images.pexels.com/photos/4827/nature-forest-trees-fog.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.portfolio-4 {
+    background: url("https://images.pexels.com/photos/807598/pexels-photo-807598.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.portfolio-5 {
+    background: url("https://images.pexels.com/photos/709552/pexels-photo-709552.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.portfolio-6 {
+    background: url("https://images.pexels.com/photos/39811/pexels-photo-39811.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.portfolio-7 {
+    background: url("https://images.pexels.com/photos/462149/pexels-photo-462149.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.portfolio-8 {
+    background: url("https://images.pexels.com/photos/372098/pexels-photo-372098.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.portfolio-9 {
+    background: url("https://images.pexels.com/photos/1039302/pexels-photo-1039302.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.portfolio-10 {
+    background: url("https://images.pexels.com/photos/227507/pexels-photo-227507.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.portfolio-11 {
+    background: url("https://images.pexels.com/photos/129105/pexels-photo-129105.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.portfolio-12 {
+    background: url("https://images.pexels.com/photos/127513/pexels-photo-127513.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.portfolio-13 {
+    background: url("https://images.pexels.com/photos/167699/pexels-photo-167699.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.portfolio-14 {
+    background: url("https://images.pexels.com/photos/540518/pexels-photo-540518.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.portfolio-15 {
+    background: url("https://images.pexels.com/photos/132037/pexels-photo-132037.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* Footer */
+
+.footer {
+    text-align: center;
+    color: #666;
+    margin-top: 3.75rem;
+}
+
+.footer-text {
+    font-weight: 500;
+    color: #111;
+}
+
+.footer-text:hover {
+    text-decoration: none;
+    color: #666;
+}
+
+
+/* Blog Posts */
+
+.blog {
+    margin-top: 2.5rem;
+}
+
+.blog-content {
+    margin-top: 2.125rem;
+}
+
+.blog-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #111;
+}
+
+.blog-text {
+    font-weight: 400;
+    color: #111;
+}
+
+.search-title,
+.featured-title {
+    font-size: 1.25rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #111;
+}
+
+.featured-posts {
+    margin-top: 2.5rem;
+}
+
+.post {
+    padding-top: 1.3rem;
+}
+
+.post a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #111;
+}
+
+.post a:hover {
+    text-decoration: none;
+    color: #666;
+}
+
+.nav-archive a {
+    color: #666;
+}
+
+.nav .dropdown {
+    margin-top: 1rem;
+}
+
+.form-control:focus {
+    color: #666;
+    background-color: #fff;
+    border-color: #666;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, .25);
 }
 
 
